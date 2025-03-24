@@ -26,7 +26,7 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Hover effect to increase size */
+
 .faq-container:hover {
     transform: scale(1.05);
 }
@@ -46,7 +46,11 @@ h2 {
     transition: background 0.3s ease;
 }
 
-
+.faq-item:hover {
+    background: #444;
+    transform: scale(1.04);
+   
+}
 
 .faq-question {
     display: flex;
