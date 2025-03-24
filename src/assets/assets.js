@@ -1,5 +1,5 @@
 
-export const faqData = [
+export const Data = [
     { question: "Swiggy Genie",
       answer: "Swiggy Genie allows users to send parcels, documents, and other items, as well as order laundry pickup/drop-off, and more. " 
     },

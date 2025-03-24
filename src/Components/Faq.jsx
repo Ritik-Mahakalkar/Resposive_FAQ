@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './Faq.css'
-import { faqData } from "../assets/assets";
+import { Data } from "../assets/assets";
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -11,7 +11,7 @@ const Faq = () => {
   return (
     <div className="faq-container">
       <h2>FAQ's</h2>
-      {faqData.map((item, index) => (
+      {Data.map((item, index) => (
         <div key={index}   className={`faq-item ${openIndex === index ? "active" : ""}`} onClick={() => toggleFAQ(index)} >
           <div className="faq-question">
             <span>{item.question}</span>
